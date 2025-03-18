@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+header{
+    top: 0;
+    position: relative;  
+    background-color:#ebebeb; 
+    height: auto;
+    object-fit: scale-down;
+}
+
+ul:not(.one){
+    list-style-type: none;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+ 
+}
+
+
+li:not(.one){
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home-pic{
+    /* width: 100%;
+    height: 400px;
+    object-fit: scale-down;
+    background-color: #212e66;
+    object-fit:cover; */
+    box-shadow: 5px 10px 8px 10px hsl(240, 12%, 42%);
+    
+}
+
+
+#home{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.about-write {
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    background-color:#ebebeb; 
+    border-radius: 20px; 
+}
+
+
+#profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    overflow: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:#ebebeb; 
+    border-radius: 20px; 
+}
+
+
+.profile-pics{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    object-fit: scale-down;
+    border-radius: 20px;
+    padding: 10px; 
+}
+
+h4{
+    padding: 10px;
+ 
+}
+
+
+hr{
+    width: 80vw;
+    border: 2.5px solid rgb(134, 123, 123);
+    margin-top: 50px;
+}
+
+ #hero{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+#profiles figure{
+    display: block;
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+}
+
+#careers{
+    padding: 0 25px;
+    background-color:#ebebeb;  
+    border-radius: 20px; 
+}   
+
+.apply-button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.page-down{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color:#ebebeb; 
+    min-height: 85px;
+    margin-top: 70px;
+    bottom: 0;
+}
+
+.page-down a{
+    padding: 20px;
+}
+
+
+#title{
+    text-align: center;
+}
+
+.app-form{
+	display: block;
+	font-size: 1.3rem;
+   
+}
+
+
+h3{
+    text-align: left;
+ }
+
+
+.inner-form{
+	background-color: #ebebeb;
+	margin: 30px auto;
+	padding: 30px;
+    padding-left: 80px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+#fname,#mail,#interest, #experience2{
+    display: block;
+    padding: 10px;
+    margin:10px;
+    min-width: 50%;
+  }
+
+
+  .job-app{
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+
+
+button, .submit{
+    cursor: pointer;
+    padding: 15px 25px; 
+   font-size: 1.2rem;
+   border-radius: 20px;
+   border: 1px solid gray;
+   
+}
+
+
+.logo2{
+    padding: 20px;
+}
+
+option{
+    width: 50%;
+    background-color: rgb(28, 29, 28);
+    color: white;
+}
+
+.check{
+    display: block;
+    padding: 10px;
+}
+
+.namings{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+ h2{
+    text-decoration: underline;
+ }
+
+
+@media only screen and (min-width: 1024px) {
+
+    .body-grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 20px;
+    }
+
+    .home-pic{
+        margin-top: 45px;
+    }
+ }
