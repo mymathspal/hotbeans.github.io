@@ -44,11 +44,11 @@ a{
 }
 
 .home-pic{
-    /* width: 100%;
+    width: 100%;
     height: 400px;
     object-fit: scale-down;
     background-color: #212e66;
-    object-fit:cover; */
+    object-fit:cover; 
     box-shadow: 5px 10px 8px 10px hsl(240, 12%, 42%);
     
 }
