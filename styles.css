@@ -162,13 +162,11 @@ h3{
     text-align: left;
  }
 
-
 .inner-form{
-	background-color: #ebebeb;
-	margin: 30px auto;
-	padding: 30px;
-    padding-left: 80px;
-    width: 80%;
+    background-color: #ebebeb;
+    margin: 30px auto;
+    padding: 40px;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -177,7 +175,7 @@ h3{
     display: block;
     padding: 10px;
     margin:10px;
-    min-width: 50%;
+    min-width: 55%;
   }
 
 
@@ -222,7 +220,7 @@ option{
  }
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 950px) {
 
     .body-grid{
         display: grid;
@@ -233,4 +231,14 @@ option{
     .home-pic{
         margin-top: 45px;
     }
+
+    .inner-form{
+        background-color: #ebebeb;
+        margin: 30px auto;
+        padding: 30px;
+        padding-left: 80px;
+        width: 80%;
+        border-radius: 20px;
+    }
+
  }
