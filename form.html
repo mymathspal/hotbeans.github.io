@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel ="icon"  href="head.jpg">
+    
+    <title>JOB APPLICATION</title>
+</head>
+
+
+<body class="app-form"> 
+    
+        <img src = "logo.png" alt = "Hot Beans Web logo" class="logo2">
+
+        <h2 id="title">JOB APPLICATION (Web Developer) </h2>
+
+  <form id = "myForm"  action="mailto:someone@gmail.com" method="post" enctype="text/plain">
+
+
+      <div class="inner-form">
+
+          <h3>Personal Information: </h3>
+
+          <div id="personal-info">
+
+              <label for="fname">Name: </label>
+              <input type="text" id="fname" name="name" placeholder="Enter your name">
+
+              <br>
+
+              <label for="mail"> Email address:</label>
+              <input type="email" id="mail" name="email" placeholder="Enter your email">
+
+              <br>
+
+              <p>Gender: </p>
+
+              <input type="radio" id="gender" name="gender" value="male" checked>
+              <label for="gender">Male</label><br>
+
+              <input type="radio" id="gender" name="gender" value="female">
+              <label for="gender">Female</label>
+          </div>
+
+
+          <h3>Experience:  </h3>
+          <div id="experience">
+
+            
+
+              <label for="exp2">What programming languages are you proficient in?  </label><br><br>
+              <textarea id="experience2" rows="8" cols="20" name="Programming proficiency" placeholder="I am proficient in..."></textarea>
+          </div>
+
+
+
+
+          <h3>Skills: </h3>
+          <div id="skills">
+
+              <p>Rate your skills in the following areas: </p><br>
+
+              <label for="skill1">HTML: </label><br>
+              <select id="skill1" name="html-ratings">
+                  <option value="0-45%">0-45%</option>
+                  <option value="46-85%">46-85%</option>
+                  <option value="85-100%">85-100%</option>
+              </select>
+              <br><br>
+
+
+              <label for="skill2">CSS: </label><br>
+              <select id="skill2" name="css-ratings">
+                  <option value="0-45%">0-45%</option>
+                  <option value="46-85%">46-85%</option>
+                  <option value="85-100%">85-100%</option>
+              </select>
+              <br><br>
+
+
+              <label for="skill3">JavaScript: </label><br>
+              <select id="skill3" name="JavaScript-ratings">
+                  <option value="0-45%">0-45%</option>
+                  <option value="46-85%">46-85%</option>
+                  <option value="85-100%">85-100%</option>
+              </select>
+              <br><br>
+          </div>
+
+
+
+          <h3>Additional Information: </h3>
+          <p>Tick the days you will be available:  </p>
+
+         <div id="extra-info">
+
+              <div class="check">
+                  <input type="checkbox" id="available" value="Monday" name="availability">
+                  <label for="available">Monday </label>
+              </div>
+
+              <div class="check">
+                  <input type="checkbox" id="available" value="Tuesday" name="availability">
+                  <label for="available">Tuesday </label>
+              </div>
+
+              <div class="check">
+                  <input type="checkbox" id="available" value="Wednesday" name="availability">
+                  <label for="available">Wednesday </label>
+              </div>
+
+              <div class="check">
+                  <input type="checkbox" id="available" value="Thursday" name="availability">
+                  <label for="available">Thursday </label>
+              </div>
+
+              <div class="check">
+                  <input type="checkbox" id="available" value="Friday" name="availability">
+                  <label for="available">Friday </label><br><br>
+              </div>
+
+              <label for="interest">Tell us about your interest in web development  </label><br><br>
+              <textarea id="interest" rows="8" cols="20" name="Interest" placeholder="My interest in web development..."></textarea>
+
+         </div>
+
+
+
+
+       <div class="job-app">
+           <input id="submit" type="submit" class="submit"><br><br>
+        </div>
+
+      </div>
+</form>
+    
+ <script src="script.js">
+ </script>
+
+
+  </body>
+</html>
