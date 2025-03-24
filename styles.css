@@ -215,9 +215,7 @@ option{
     font-weight: bold;
     font-size: 1.1rem;
 }
- h2{
-    text-decoration: underline;
- }
+
 
 
 @media only screen and (min-width: 950px) {
