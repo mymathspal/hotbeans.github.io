@@ -33,6 +33,7 @@ ul:not(.one){
 }
 
 
+
 li:not(.one){
     display: inline-block;
     padding: 15px;
@@ -215,7 +216,6 @@ option{
     font-weight: bold;
     font-size: 1.1rem;
 }
-
 
 
 @media only screen and (min-width: 950px) {
